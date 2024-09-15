@@ -1,0 +1,5 @@
+def array_from_url(url):
+    import pandas as pd
+    import numpy as np
+    data = pd.read_csv(url)
+    return np.array(data)
